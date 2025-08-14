@@ -67,17 +67,29 @@ This is a novel writing workspace structured for literary fiction. The project u
 
 ## Working with This Repository
 
+### Core Architecture
+This is a structured Japanese literary fiction writing workspace with a hierarchical approach:
+1. **Planning Phase**: `outline.md` → `detailed_outline.md` → `Plots/chapter##_plot.md`
+2. **Reference Phase**: `SettingMaterials/` (characters, world setting, research)
+3. **Writing Phase**: `Chapters/chapter##.md` (actual novel content)
+
 ### Core Files
 - `outline.md` - Concise plot structure and planning (simple format)
 - `detailed_outline.md` - Detailed scene-by-scene breakdown with dialogue and descriptions
 - `style_guide.md` - Writing style and literary expression guidelines (MUST READ before any creative work)
 - `SettingMaterials/` - Essential world-building documents that inform all writing
   - `characters.md` - Detailed character profiles for main protagonists
-  - `sanseitou.md` - Comprehensive analysis of political party phenomenon (background research)
+  - `sanseitou.md` - Comprehensive analysis of political party phenomenon (background research)  
   - `scenes.md` - Key scene descriptions and narrative ideas
   - `timeline.md` - Story chronology with past/present structure
 - `Plots/` - Detailed chapter planning before writing
 - `Chapters/` - Final prose output
+
+### Development Workflow
+**No build/test commands are needed** - this is a pure content creation project. The workflow is:
+1. Use Read tool to examine existing outlines and setting materials
+2. Follow step-by-step chapter creation as mandated in guidelines above
+3. Use word counting tools (日本語文字数) for verification at each step
 
 ### File Naming Conventions
 - Chapter files use format: `chapter##.md` and `chapter##_plot.md`
@@ -93,6 +105,12 @@ This is a novel writing workspace structured for literary fiction. The project u
 - `scenes.md` serves as a repository for key narrative moments and descriptions
 - `timeline.md` manages the complex past/present narrative structure
 
+### Common Editorial Tasks
+Based on `good_script.md`, frequent editing patterns include:
+- **AI文章削除**: Remove AI-generated sounding text by checking scene-by-scene
+- **文字数削減**: Reduce word count by eliminating redundant expressions (refer to style_guide.md)
+- **説明削除**: Replace psychological explanations with behavioral descriptions
+- Process chapters in 50-100 line increments for systematic revision
 
 ## Literary Focus
-This workspace is designed for literary fiction without fantasy elements like magic systems. Focus on character development, realistic settings, and literary themes rather than world-building mechanics.
+This workspace is designed for literary fiction without fantasy elements like magic systems. Focus on character development, realistic settings, and literary themes rather than world-building mechanics. The story follows psychological realism principles with first-person present tense narration.
