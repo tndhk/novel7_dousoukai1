@@ -68,7 +68,8 @@ This is a novel writing workspace structured for literary fiction. The project u
 ## Working with This Repository
 
 ### Core Files
-- `outline.md` - Start here for overall story structure and planning
+- `outline.md` - Concise plot structure and planning (simple format)
+- `detailed_outline.md` - Detailed scene-by-scene breakdown with dialogue and descriptions
 - `style_guide.md` - Writing style and literary expression guidelines (MUST READ before any creative work)
 - `SettingMaterials/` - Essential world-building documents that inform all writing
   - `characters.md` - Detailed character profiles for main protagonists
